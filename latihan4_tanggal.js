@@ -1,8 +1,6 @@
-//Tanggal switch case
-
 var hari = 3;
 var bulan = 12;
-var tahun = 2018;
+var tahun = 1900;
 
 
 if (hari >= 1 && hari <= 31 &&  bulan >=1 && bulan <=12 && tahun >= 1900 && tahun <= 2200) {
@@ -21,11 +19,10 @@ if (hari >= 1 && hari <= 31 &&  bulan >=1 && bulan <=12 && tahun >= 1900 && tahu
   case 10 :  bulan = 'Oktober'; break;
   case 11 :  bulan = 'November'; break;
   case 12 :  bulan = 'Desember'; break;
-  
-    
-  }
-} else { console.log('Data yang anda masukkan tidak valid');}
-console.log(hari +' '+ bulan + ' ' + tahun);
+  } console.log(hari +' '+ bulan + ' ' + tahun);
 
+ 	 } else { console.log('Data yang anda masukkan tidak valid');
+
+}
 
 
